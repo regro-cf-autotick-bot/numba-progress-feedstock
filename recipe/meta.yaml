@@ -1,5 +1,5 @@
 {% set name = "numba-progress" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/numba-progress-{{ version }}.tar.gz
-  sha256: c460f96f10370b40c5fae47ad9a966841d02c9b4021953dd076010ad9a7e0a66
+  sha256: f2a0da4840997eac2db47ef026c90f440169007d21c42f16551a3ead0e81fd4d
 
 build:
   noarch: python
